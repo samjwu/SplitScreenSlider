@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#wrapper {
+    position: relative;
+    max-width: 100vw;
+    min-height: 60vw;
+}
+
+.layer {
+    position: absolute;
+    width: 100vw;
+    min-height: 60vw;
+}
+
+.image {
+    position: absolute;
+    width: 100vw;
+    min-height: 60vw;
+}
+
+.content {
+    position: absolute;
+    width: 25%;
+    top: 40%;
+    text-align: center;
+    transform: translateY(-100%);
+}
+
+.content h1 {
+    font-size: 2rem;
+}
+
+img {
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+}
