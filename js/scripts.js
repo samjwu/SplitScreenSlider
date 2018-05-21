@@ -1,12 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-     
-});
-
-var wrapper = document.querySelector(".screens");
-var toplayer = wrapper.querySelector(".top");
-var slider = wrapper.querySelector(".slider");
-
-wrapper.addEventListener("mousemove", function(mouse) {
-        slider.style.left = mouse.clientX + "px";
+    let container = document.getElementById("container");
+    let toplayer = container.querySelector(".top");
+    let slider = container.querySelector(".slider");
+    
+    container.addEventListener("mousemove", function(mouse) {
         toplayer.style.width = mouse.clientX + "px";
+        slider.style.left = mouse.clientX + "px";
+    });
 });
