@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     let container = document.getElementById("container");
-    let toplayer = container.querySelector(".top");
+    let layer1 = container.querySelector(".l1");
     let slider = container.querySelector(".slider");
     
     container.addEventListener("mousemove", function(mouse) {
-        toplayer.style.width = mouse.clientX + "px";
+        layer1.style.width = mouse.clientX + "px";
         slider.style.left = mouse.clientX + "px";
     });
 });

@@ -37,24 +37,24 @@ body {
     overflow: hidden;
 }
 
-.bottom {
+.l2 {
     background: #005aff;
     z-index: 1;
 }
 
-.bottom .content {
+.l2 .content {
     right: 10%;
     color: #fff;
     z-index: 3;
 }
 
-.top {
+.l1 {
     background: #ffa500;
     z-index: 2;
     width: 45vw;
 }
 
-.top .content {
+.l1 .content {
     bottom: 10%;
     left: 10%;
     color: #fff;
@@ -85,11 +85,19 @@ img {
     top: 0%;
 }
 
-a:link {
+.l2 a:link {
+    color: #005aff;
+}
+
+.l2 a:visited {
+    color: #005aff;
+}
+
+.l1 a:link {
     color: #ffa500;
 }
 
-a:visited {
+.l1 a:visited {
     color: #ffa500;
 }
 
