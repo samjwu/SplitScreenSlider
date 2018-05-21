@@ -21,7 +21,7 @@ body {
 }
 
 .l2 {
-    background: #005aff;
+    background: #000;
     z-index: 1;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .l1 {
-    background: #ffa500;
+    background: #000;
     z-index: 2;
     width: 50vw;
 }
@@ -104,7 +104,24 @@ img {
         font-size: 1rem;
         line-height: 1rem;
     }
+
     h1 {
         font-size: 2rem;
+    }
+
+    .l2 a:link {
+        font-size: 1rem;
+    }
+    
+    .l2 a:visited {
+        font-size: 1rem;
+    }
+    
+    .l1 a:link {
+        font-size: 1rem;
+    }
+    
+    .l1 a:visited {
+        font-size: 1rem;
     }
 }
