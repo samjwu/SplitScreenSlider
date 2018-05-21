@@ -2,3 +2,10 @@ styles.css
 https://stackoverflow.com/questions/15323943/what-is-a-purpose-of-using-position-relative-on-wrapper-container-div-element
 https://www.w3.org/wiki/CSS/Properties/position
 https://www.w3schools.com/css/css3_2dtransforms.asp
+
+scripts.js
+https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector
+https://www.w3schools.com/jsref/met_document_addeventlistener.asp
+https://www.w3schools.com/jsref/event_clientx.asp

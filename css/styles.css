@@ -12,10 +12,29 @@ body {
     min-height: 60vw;
 }
 
+.screens {
+    position: relative;
+    width: 100vw;
+    min-height: 60vw;
+    overflow: hidden;
+}
+
 .layer {
     position: absolute;
     width: 100vw;
     min-height: 60vw;
+    overflow: hidden;
+}
+
+.bottom {
+    background: #005aff;
+    z-index: 1;
+}
+
+.top {
+    background: #ffa500;
+    z-index: 2;
+    width: 50vw;
 }
 
 .image {
@@ -40,4 +59,19 @@ img {
     position: absolute;
     width: 100vw;
     top: 50%;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.slider {
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-color: #ffa500;
+    width: 5px;
+    top: 0px;
+    left: 50vw;
+    z-index: 3;
 }
